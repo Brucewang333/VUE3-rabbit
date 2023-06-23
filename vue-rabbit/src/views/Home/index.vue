@@ -18,10 +18,10 @@ import HomePanel from './components/HomePanel.vue'
         <homeProduct />
    
    <!-- 测试面板组件 -->
-   <HomePanel title="新鲜好物" sub-title="不新鲜你来砍我">
+   <!-- <HomePanel title="新鲜好物" sub-title="不新鲜你来砍我">
     新鲜好物
    </HomePanel>
    <HomePanel title="人气推荐" sub-title="爆款商品等您来">
     人气推荐
-   </HomePanel>
+   </HomePanel> -->
 </template>
