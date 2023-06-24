@@ -7,6 +7,9 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 import { useIntersectionObserver } from "@vueuse/core";
+// 引入全局组件插件
+import { componentPlugin } from '@/components'
+
 
 // 引入懒加载插件并注册
 
@@ -18,7 +21,7 @@ app.use(createPinia());
 app.use(router);
 app.use(lazyPlugin)
 app.mount("#app");
-
+app.use(componentPlugin)
 // 定义全局指令
 
 
