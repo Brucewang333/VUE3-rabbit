@@ -1,4 +1,5 @@
 <script setup>
+import HeaderCart from './HeaderCart.vue';
 // 使用pinia中的数据
 import {useCategoryStore} from '@/stores/category'
 const categoryStore = useCategoryStore()
@@ -24,7 +25,7 @@ console.log(categoryStore);
         <input type="text" placeholder="搜一搜">
       </div>
       <!-- 头部购物车 -->
-      
+      <HeaderCart/>
     </div>
   </header>
 </template>
